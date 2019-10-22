@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.briup.dao.BookDao">
+
+	<!-- List<Book> findAllBooks();  -->
+	<select id="findAllBooks" resultMap="book" >
+		SELECT
+			b.id bid,
+			b. NAME bname,
+			b.price bprice,
+			image,
+			c.id cid,
+			c.NAME cname
+		FROM
+			book b,
+			category c
+		WHERE
+			b.category_id = c.id
+	</select>
+	<resultMap type="com.briup.bean.Book" id="book">
+		<id column="bid" property="id"/>
+		<result column="bname" property="name"/>
+		<result column="bprice" property="price"/>
+		<result column="image" property="image"/>
+		<collection property="category" javaType="com.briup.bean.Category">
+			<result column="cid" property="id"/>
+			<result column="cname" property="name"/>
+		</collection>
+	</resultMap>
+	
+	<!-- Book findBookById(Integer id); -->
+	<select id="findBookById" resultMap="toViewBook" parameterType="Integer">
+		SELECT
+			b.id bid,
+			b. NAME bname,
+			price,
+			image,
+			c.id cid,
+			c. NAME cname
+		FROM
+			book b,
+			category c
+		WHERE
+			category_id = c.id
+		AND b.id =#{id}
+	</select>
+	<resultMap type="com.briup.bean.Book" id="toViewBook" autoMapping="true">
+		<id column="bid" property="id"/>		
+		<result column="bname" property="name"/> 
+		<result column="price" property="price"/> 
+		<result column="image" property="image"/> 
+		<result column="cid" property="category.id"/> 
+		<result column="cname" property="category.name"/> 
+	</resultMap>
+</mapper>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.briup.dao.CategoryDao">
+
+	<!-- List<Category> findAllCategories(); -->
+	<select id="findAllCategories" resultMap="rm">
+		SELECT
+			b1.id cid,
+			b1.NAME cname,
+			b2.id bid,
+			b2.NAME ccates
+		FROM
+			category b1,
+			category b2
+		WHERE
+			b1.id = b2.father_id
+	</select>
+	<resultMap type="com.briup.bean.Category" id="rm">
+		<id column="cid" property="id" />
+		<result column="cname" property="name" />
+		<collection  property="cates"
+			javaType="com.briup.bean.Category">
+			<result column="bid" property="id"/>
+			<result column="ccates" property="name" />
+		</collection>
+	</resultMap>
+
+
+</mapper>

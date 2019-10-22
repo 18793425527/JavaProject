@@ -1,0 +1,276 @@
+2019/10/17 18:23:29-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:23:29-[ DEBUG ] ==> Parameters: dsa(String)
+ 2019/10/17 18:23:29-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:23:31-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:23:31-[ DEBUG ] ==> Parameters: (String)
+ 2019/10/17 18:23:31-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:23:33-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:23:33-[ DEBUG ] ==> Parameters: (String)
+ 2019/10/17 18:23:33-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:25:50-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:25:50-[ DEBUG ] ==> Parameters: (String)
+ 2019/10/17 18:25:50-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:25:51-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:25:51-[ DEBUG ] ==> Parameters: (String)
+ 2019/10/17 18:25:51-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:25:53-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:25:53-[ DEBUG ] ==> Parameters: (String)
+ 2019/10/17 18:25:53-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:26:33-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:26:33-[ DEBUG ] ==> Parameters: (String)
+ 2019/10/17 18:26:33-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:27:06-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:27:06-[ DEBUG ] ==> Parameters: ds(String)
+ 2019/10/17 18:27:06-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:27:24-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:27:24-[ DEBUG ] ==> Parameters: a(String)
+ 2019/10/17 18:27:24-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:28:44-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:28:44-[ DEBUG ] ==> Parameters: aa(String)
+ 2019/10/17 18:28:44-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:29:00-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:29:00-[ DEBUG ] ==> Parameters: a(String)
+ 2019/10/17 18:29:00-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:29:19-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:29:19-[ DEBUG ] ==> Parameters: (String)
+ 2019/10/17 18:29:19-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:29:28-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:29:28-[ DEBUG ] ==> Parameters: (String)
+ 2019/10/17 18:29:28-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:30:02-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:30:02-[ DEBUG ] ==> Parameters: (String)
+ 2019/10/17 18:30:02-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:30:14-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:30:14-[ DEBUG ] ==> Parameters: (String)
+ 2019/10/17 18:30:14-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:30:46-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:30:46-[ DEBUG ] ==> Parameters: (String)
+ 2019/10/17 18:30:46-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:31:39-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:31:39-[ DEBUG ] ==> Parameters: (String)
+ 2019/10/17 18:31:39-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:32:07-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:32:07-[ DEBUG ] ==> Parameters: (String)
+ 2019/10/17 18:32:07-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:34:17-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:34:17-[ DEBUG ] ==> Parameters: (String)
+ 2019/10/17 18:34:17-[ DEBUG ] <==      Total: 0
+ 2019/10/17 18:42:46-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 18:42:46-[ DEBUG ] ==> Parameters: admin(String)
+ 2019/10/17 18:42:46-[ DEBUG ] <==      Total: 1
+ 2019/10/17 18:56:38-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/17 18:56:38-[ DEBUG ] ==> Parameters: null, cxt(String), 123(String), 2344(String), das(String), 12345t6(String), 234123@qq.com(String)
+ 2019/10/17 18:56:39-[ DEBUG ] <==    Updates: 1
+ 2019/10/17 20:16:22-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 20:16:22-[ DEBUG ] ==> Parameters: cxt(String)
+ 2019/10/17 20:16:22-[ DEBUG ] <==      Total: 1
+ 2019/10/17 20:16:22-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 20:16:22-[ DEBUG ] ==> Parameters: 152365(String)
+ 2019/10/17 20:16:22-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:16:22-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 20:16:22-[ DEBUG ] ==> Parameters: ddd@asd.com(String)
+ 2019/10/17 20:16:22-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:18:10-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 20:18:10-[ DEBUG ] ==> Parameters: 1522321(String)
+ 2019/10/17 20:18:10-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:18:10-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 20:18:10-[ DEBUG ] ==> Parameters: www@qq.com(String)
+ 2019/10/17 20:18:10-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:19:21-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 20:19:21-[ DEBUG ] ==> Parameters: cxt(String)
+ 2019/10/17 20:19:21-[ DEBUG ] <==      Total: 1
+ 2019/10/17 20:19:21-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 20:19:21-[ DEBUG ] ==> Parameters: asd(String)
+ 2019/10/17 20:19:21-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:19:21-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 20:19:21-[ DEBUG ] ==> Parameters: ads(String)
+ 2019/10/17 20:19:21-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:19:49-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 20:19:49-[ DEBUG ] ==> Parameters: sda(String)
+ 2019/10/17 20:19:49-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:19:49-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 20:19:49-[ DEBUG ] ==> Parameters: 123456(String)
+ 2019/10/17 20:19:49-[ DEBUG ] <==      Total: 1
+ 2019/10/17 20:19:49-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 20:19:49-[ DEBUG ] ==> Parameters: das(String)
+ 2019/10/17 20:19:49-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:20:04-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 20:20:04-[ DEBUG ] ==> Parameters: das(String)
+ 2019/10/17 20:20:04-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:20:04-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 20:20:04-[ DEBUG ] ==> Parameters: 123@briup.com(String)
+ 2019/10/17 20:20:04-[ DEBUG ] <==      Total: 1
+ 2019/10/17 20:21:36-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 20:21:36-[ DEBUG ] ==> Parameters: ads(String)
+ 2019/10/17 20:21:36-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:21:36-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 20:21:36-[ DEBUG ] ==> Parameters: ads(String)
+ 2019/10/17 20:21:36-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:21:36-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 20:21:36-[ DEBUG ] ==> Parameters: asd(String)
+ 2019/10/17 20:21:36-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:21:36-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/17 20:21:36-[ DEBUG ] ==> Parameters: null, ads(String), dsa(String), ads(String), asd(String), ads(String), asd(String)
+ 2019/10/17 20:21:36-[ DEBUG ] <==    Updates: 1
+ 2019/10/17 20:24:34-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 20:24:34-[ DEBUG ] ==> Parameters: ads(String)
+ 2019/10/17 20:24:34-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:24:34-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 20:24:34-[ DEBUG ] ==> Parameters: ads(String)
+ 2019/10/17 20:24:34-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:24:34-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 20:24:34-[ DEBUG ] ==> Parameters: asd(String)
+ 2019/10/17 20:24:34-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:24:34-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/17 20:24:34-[ DEBUG ] ==> Parameters: null, ads(String), 123(String), ads(String), asd(String), ads(String), asd(String)
+ 2019/10/17 20:24:34-[ DEBUG ] <==    Updates: 1
+ 2019/10/17 20:25:08-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 20:25:08-[ DEBUG ] ==> Parameters: ads(String)
+ 2019/10/17 20:25:08-[ DEBUG ] <==      Total: 1
+ 2019/10/17 20:25:08-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 20:25:08-[ DEBUG ] ==> Parameters: asd(String)
+ 2019/10/17 20:25:08-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:25:08-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 20:25:08-[ DEBUG ] ==> Parameters: ads(String)
+ 2019/10/17 20:25:08-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:25:32-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 20:25:32-[ DEBUG ] ==> Parameters: null
+ 2019/10/17 20:25:32-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:25:32-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 20:25:32-[ DEBUG ] ==> Parameters: null
+ 2019/10/17 20:25:32-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:25:32-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 20:25:32-[ DEBUG ] ==> Parameters: null
+ 2019/10/17 20:25:32-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:25:32-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/17 20:25:32-[ DEBUG ] ==> Parameters: null, null, null, null, null, null, null
+ 2019/10/17 20:27:05-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 20:27:05-[ DEBUG ] ==> Parameters: aaa(String)
+ 2019/10/17 20:27:05-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:27:05-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 20:27:05-[ DEBUG ] ==> Parameters: aaa(String)
+ 2019/10/17 20:27:05-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:27:05-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 20:27:05-[ DEBUG ] ==> Parameters: aaa(String)
+ 2019/10/17 20:27:05-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:27:05-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/17 20:27:05-[ DEBUG ] ==> Parameters: null, aaa(String), aa(String), aaa(String), aaa(String), aaa(String), aaa(String)
+ 2019/10/17 20:27:05-[ DEBUG ] <==    Updates: 1
+ 2019/10/17 20:29:51-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 20:29:51-[ DEBUG ] ==> Parameters: xx(String)
+ 2019/10/17 20:29:51-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:29:51-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 20:29:51-[ DEBUG ] ==> Parameters: das(String)
+ 2019/10/17 20:29:51-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:29:51-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 20:29:51-[ DEBUG ] ==> Parameters: asd(String)
+ 2019/10/17 20:29:51-[ DEBUG ] <==      Total: 1
+ 2019/10/17 20:30:03-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 20:30:03-[ DEBUG ] ==> Parameters: gg(String)
+ 2019/10/17 20:30:03-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:30:03-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 20:30:03-[ DEBUG ] ==> Parameters: gg(String)
+ 2019/10/17 20:30:03-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:30:03-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 20:30:03-[ DEBUG ] ==> Parameters: gg(String)
+ 2019/10/17 20:30:03-[ DEBUG ] <==      Total: 0
+ 2019/10/17 20:30:03-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/17 20:30:03-[ DEBUG ] ==> Parameters: null, gg(String), g(String), gg(String), gg(String), gg(String), gg(String)
+ 2019/10/17 20:30:03-[ DEBUG ] <==    Updates: 1
+ 2019/10/17 22:16:44-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 22:16:44-[ DEBUG ] ==> Parameters: cxdsd(String)
+ 2019/10/17 22:16:44-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:16:44-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 22:16:44-[ DEBUG ] ==> Parameters: 153151651(String)
+ 2019/10/17 22:16:44-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:16:44-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 22:16:44-[ DEBUG ] ==> Parameters: adsf@qq.com(String)
+ 2019/10/17 22:16:44-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:16:44-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/17 22:16:44-[ DEBUG ] ==> Parameters: null, cxdsd(String), das(String), a(String), dsaf(String), 153151651(String), adsf@qq.com(String)
+ 2019/10/17 22:16:45-[ DEBUG ] <==    Updates: 1
+ 2019/10/17 22:22:17-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 22:22:17-[ DEBUG ] ==> Parameters: cxdsd(String)
+ 2019/10/17 22:22:17-[ DEBUG ] <==      Total: 1
+ 2019/10/17 22:22:17-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 22:22:17-[ DEBUG ] ==> Parameters: 153151651(String)
+ 2019/10/17 22:22:17-[ DEBUG ] <==      Total: 1
+ 2019/10/17 22:22:17-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 22:22:17-[ DEBUG ] ==> Parameters: adsf@qq.com(String)
+ 2019/10/17 22:22:17-[ DEBUG ] <==      Total: 1
+ 2019/10/17 22:23:20-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 22:23:20-[ DEBUG ] ==> Parameters: llll(String)
+ 2019/10/17 22:23:20-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:23:20-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 22:23:20-[ DEBUG ] ==> Parameters: 132134(String)
+ 2019/10/17 22:23:20-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:23:20-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 22:23:20-[ DEBUG ] ==> Parameters: gfgf@qq.com(String)
+ 2019/10/17 22:23:20-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:23:20-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/17 22:23:20-[ DEBUG ] ==> Parameters: null, llll(String), aa(String), 4566(String), dsaf(String), 132134(String), gfgf@qq.com(String)
+ 2019/10/17 22:23:20-[ DEBUG ] <==    Updates: 1
+ 2019/10/17 22:25:23-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 22:25:23-[ DEBUG ] ==> Parameters: vvv(String)
+ 2019/10/17 22:25:23-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:25:23-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 22:25:23-[ DEBUG ] ==> Parameters: 5565153(String)
+ 2019/10/17 22:25:23-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:25:23-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 22:25:23-[ DEBUG ] ==> Parameters: asdasd(String)
+ 2019/10/17 22:25:23-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:25:23-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/17 22:25:23-[ DEBUG ] ==> Parameters: null, vvv(String), adss(String), asd@qq.c(String), sda(String), 5565153(String), asdasd(String)
+ 2019/10/17 22:25:23-[ DEBUG ] <==    Updates: 1
+ 2019/10/17 22:26:58-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 22:26:58-[ DEBUG ] ==> Parameters: ads(String)
+ 2019/10/17 22:26:58-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:26:58-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 22:26:58-[ DEBUG ] ==> Parameters: 1518189(String)
+ 2019/10/17 22:26:58-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:26:58-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 22:26:58-[ DEBUG ] ==> Parameters: tgghjh(String)
+ 2019/10/17 22:26:58-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:26:58-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/17 22:26:58-[ DEBUG ] ==> Parameters: null, ads(String), das(String), ga(String), aa(String), 1518189(String), tgghjh(String)
+ 2019/10/17 22:26:58-[ DEBUG ] <==    Updates: 1
+ 2019/10/17 22:30:05-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 22:30:05-[ DEBUG ] ==> Parameters: uuu(String)
+ 2019/10/17 22:30:05-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:30:05-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 22:30:05-[ DEBUG ] ==> Parameters: 20265(String)
+ 2019/10/17 22:30:05-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:30:05-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 22:30:05-[ DEBUG ] ==> Parameters: sss@ss.c(String)
+ 2019/10/17 22:30:05-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:30:05-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/17 22:30:05-[ DEBUG ] ==> Parameters: null, uuu(String), uuu(String), 4554(String), 1215(String), 20265(String), sss@ss.c(String)
+ 2019/10/17 22:30:06-[ DEBUG ] <==    Updates: 1
+ 2019/10/17 22:32:35-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 22:32:35-[ DEBUG ] ==> Parameters: aaa(String)
+ 2019/10/17 22:32:35-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:32:35-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/17 22:32:35-[ DEBUG ] ==> Parameters: 222222(String)
+ 2019/10/17 22:32:35-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:32:35-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 22:32:35-[ DEBUG ] ==> Parameters: ddda@(String)
+ 2019/10/17 22:32:35-[ DEBUG ] <==      Total: 0
+ 2019/10/17 22:32:35-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/17 22:32:35-[ DEBUG ] ==> Parameters: null, aaa(String), aaa(String), aaa(String), ddd(String), 222222(String), ddda@(String)
+ 2019/10/17 22:32:35-[ DEBUG ] <==    Updates: 1
+ 2019/10/17 23:51:34-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/17 23:51:34-[ DEBUG ] ==> Parameters: 234123@qq.com(String)
+ 2019/10/17 23:51:34-[ DEBUG ] <==      Total: 1
+ 2019/10/17 23:52:35-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 23:52:35-[ DEBUG ] ==> Parameters: 12345t6(String)
+ 2019/10/17 23:52:35-[ DEBUG ] <==      Total: 0
+ 2019/10/17 23:53:41-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 23:53:41-[ DEBUG ] ==> Parameters: 12345556(String)
+ 2019/10/17 23:53:41-[ DEBUG ] <==      Total: 0
+ 2019/10/17 23:59:07-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 23:59:07-[ DEBUG ] ==> Parameters: 1561(String)
+ 2019/10/17 23:59:07-[ DEBUG ] <==      Total: 0
+ 2019/10/17 23:59:52-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/17 23:59:52-[ DEBUG ] ==> Parameters: 54(String)
+ 2019/10/17 23:59:52-[ DEBUG ] <==      Total: 0
+ 

@@ -1,0 +1,212 @@
+2019/10/20 11:41:58-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 11:41:58-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 11:41:58-[ DEBUG ] <==      Total: 19
+ 2019/10/20 11:41:58-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 11:41:58-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 11:41:58-[ DEBUG ] <==      Total: 10
+ 2019/10/20 11:42:38-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/20 11:42:38-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/20 11:42:38-[ DEBUG ] <==      Total: 1
+ 2019/10/20 11:42:38-[ DEBUG ] ==>  Preparing: select customer_id, c.username username, c.password password, zip, address, phone, email, book_id,name,price,image,num from shopcar s,customer c,book b where s.customer_id = c.id and s.book_id = b.id and customer_id=? 
+ 2019/10/20 11:42:38-[ DEBUG ] ==> Parameters: 13(Integer)
+ 2019/10/20 11:42:38-[ DEBUG ] <==      Total: 1
+ 2019/10/20 14:02:32-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 14:02:32-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:02:33-[ DEBUG ] <==      Total: 19
+ 2019/10/20 14:02:33-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 14:02:33-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:02:33-[ DEBUG ] <==      Total: 10
+ 2019/10/20 14:02:54-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/20 14:02:54-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/20 14:02:54-[ DEBUG ] <==      Total: 1
+ 2019/10/20 14:02:54-[ DEBUG ] ==>  Preparing: select customer_id, c.username username, c.password password, zip, address, phone, email, book_id,name,price,image,num from shopcar s,customer c,book b where s.customer_id = c.id and s.book_id = b.id and customer_id=? 
+ 2019/10/20 14:02:54-[ DEBUG ] ==> Parameters: 13(Integer)
+ 2019/10/20 14:02:54-[ DEBUG ] <==      Total: 1
+ 2019/10/20 14:03:08-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 14:03:08-[ DEBUG ] ==> Parameters: 1(Integer)
+ 2019/10/20 14:03:08-[ DEBUG ] <==      Total: 1
+ 2019/10/20 14:06:14-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 14:06:14-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:06:14-[ DEBUG ] <==      Total: 19
+ 2019/10/20 14:06:14-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 14:06:14-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:06:14-[ DEBUG ] <==      Total: 10
+ 2019/10/20 14:06:31-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 14:06:31-[ DEBUG ] ==> Parameters: 1(Integer)
+ 2019/10/20 14:06:31-[ DEBUG ] <==      Total: 1
+ 2019/10/20 14:07:38-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 14:07:38-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:07:38-[ DEBUG ] <==      Total: 19
+ 2019/10/20 14:07:38-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 14:07:38-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:07:38-[ DEBUG ] <==      Total: 10
+ 2019/10/20 14:07:39-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 14:07:39-[ DEBUG ] ==> Parameters: 1(Integer)
+ 2019/10/20 14:07:39-[ DEBUG ] <==      Total: 1
+ 2019/10/20 14:13:29-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/20 14:13:29-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/20 14:13:29-[ DEBUG ] <==      Total: 1
+ 2019/10/20 14:13:29-[ DEBUG ] ==>  Preparing: select customer_id, c.username username, c.password password, zip, address, phone, email, book_id,name,price,image,num from shopcar s,customer c,book b where s.customer_id = c.id and s.book_id = b.id and customer_id=? 
+ 2019/10/20 14:13:29-[ DEBUG ] ==> Parameters: 13(Integer)
+ 2019/10/20 14:13:29-[ DEBUG ] <==      Total: 1
+ 2019/10/20 14:13:35-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 14:13:35-[ DEBUG ] ==> Parameters: 2(Integer)
+ 2019/10/20 14:13:35-[ DEBUG ] <==      Total: 1
+ 2019/10/20 14:44:14-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 14:44:14-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:44:14-[ DEBUG ] <==      Total: 19
+ 2019/10/20 14:44:14-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 14:44:14-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:44:14-[ DEBUG ] <==      Total: 10
+ 2019/10/20 14:45:07-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 14:45:07-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:45:07-[ DEBUG ] <==      Total: 19
+ 2019/10/20 14:45:07-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 14:45:07-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:45:07-[ DEBUG ] <==      Total: 10
+ 2019/10/20 14:45:18-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 14:45:18-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:45:18-[ DEBUG ] <==      Total: 19
+ 2019/10/20 14:45:18-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 14:45:18-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:45:18-[ DEBUG ] <==      Total: 10
+ 2019/10/20 14:45:35-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 14:45:35-[ DEBUG ] ==> Parameters: 2(Integer)
+ 2019/10/20 14:45:35-[ DEBUG ] <==      Total: 1
+ 2019/10/20 14:46:11-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 14:46:11-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:46:11-[ DEBUG ] <==      Total: 19
+ 2019/10/20 14:46:11-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 14:46:11-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:46:11-[ DEBUG ] <==      Total: 10
+ 2019/10/20 14:46:33-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 14:46:33-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:46:34-[ DEBUG ] <==      Total: 19
+ 2019/10/20 14:46:34-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 14:46:34-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:46:34-[ DEBUG ] <==      Total: 10
+ 2019/10/20 14:47:58-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 14:47:58-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:47:58-[ DEBUG ] <==      Total: 19
+ 2019/10/20 14:47:58-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 14:47:58-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:47:58-[ DEBUG ] <==      Total: 10
+ 2019/10/20 14:48:20-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 14:48:20-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:48:20-[ DEBUG ] <==      Total: 19
+ 2019/10/20 14:48:20-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 14:48:20-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 14:48:20-[ DEBUG ] <==      Total: 10
+ 2019/10/20 15:02:36-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 15:02:36-[ DEBUG ] ==> Parameters: 2(Integer)
+ 2019/10/20 15:02:36-[ DEBUG ] <==      Total: 1
+ 2019/10/20 17:08:08-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 17:08:08-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 17:08:08-[ DEBUG ] <==      Total: 19
+ 2019/10/20 17:08:08-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 17:08:08-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 17:08:08-[ DEBUG ] <==      Total: 10
+ 2019/10/20 17:08:19-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 17:08:19-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 17:08:19-[ DEBUG ] <==      Total: 19
+ 2019/10/20 17:08:19-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 17:08:19-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 17:08:19-[ DEBUG ] <==      Total: 10
+ 2019/10/20 17:13:53-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/20 17:13:53-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/20 17:13:53-[ DEBUG ] <==      Total: 1
+ 2019/10/20 17:13:53-[ DEBUG ] ==>  Preparing: select customer_id, c.username username, c.password password, zip, address, phone, email, book_id,name,price,image,num from shopcar s,customer c,book b where s.customer_id = c.id and s.book_id = b.id and customer_id=? 
+ 2019/10/20 17:13:53-[ DEBUG ] ==> Parameters: 13(Integer)
+ 2019/10/20 17:13:53-[ DEBUG ] <==      Total: 1
+ 2019/10/20 17:14:05-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 17:14:05-[ DEBUG ] ==> Parameters: 6(Integer)
+ 2019/10/20 17:14:05-[ DEBUG ] <==      Total: 1
+ 2019/10/20 18:22:53-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 18:22:53-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 18:22:53-[ DEBUG ] <==      Total: 19
+ 2019/10/20 18:22:53-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 18:22:53-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 18:22:53-[ DEBUG ] <==      Total: 10
+ 2019/10/20 18:25:34-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/20 18:25:34-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/20 18:25:34-[ DEBUG ] <==      Total: 1
+ 2019/10/20 18:25:34-[ DEBUG ] ==>  Preparing: select customer_id, c.username username, c.password password, zip, address, phone, email, book_id,name,price,image,num from shopcar s,customer c,book b where s.customer_id = c.id and s.book_id = b.id and customer_id=? 
+ 2019/10/20 18:25:34-[ DEBUG ] ==> Parameters: 13(Integer)
+ 2019/10/20 18:25:34-[ DEBUG ] <==      Total: 0
+ 2019/10/20 18:25:43-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 18:25:43-[ DEBUG ] ==> Parameters: 3(Integer)
+ 2019/10/20 18:25:43-[ DEBUG ] <==      Total: 1
+ 2019/10/20 19:28:54-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 19:28:54-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 19:28:54-[ DEBUG ] <==      Total: 19
+ 2019/10/20 19:28:54-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 19:28:54-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 19:28:54-[ DEBUG ] <==      Total: 10
+ 2019/10/20 19:29:27-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/20 19:29:27-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/20 19:29:27-[ DEBUG ] <==      Total: 1
+ 2019/10/20 19:29:27-[ DEBUG ] ==>  Preparing: select customer_id, c.username username, c.password password, zip, address, phone, email, book_id,name,price,image,num from shopcar s,customer c,book b where s.customer_id = c.id and s.book_id = b.id and customer_id=? 
+ 2019/10/20 19:29:27-[ DEBUG ] ==> Parameters: 13(Integer)
+ 2019/10/20 19:29:27-[ DEBUG ] <==      Total: 0
+ 2019/10/20 19:29:34-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 19:29:34-[ DEBUG ] ==> Parameters: 3(Integer)
+ 2019/10/20 19:29:34-[ DEBUG ] <==      Total: 1
+ 2019/10/20 19:29:37-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 19:29:37-[ DEBUG ] ==> Parameters: 3(Integer)
+ 2019/10/20 19:29:37-[ DEBUG ] <==      Total: 1
+ 2019/10/20 19:29:37-[ DEBUG ] ==>  Preparing: insert into shcar(customer_id,book_id,num) value(?,?,?) 
+ 2019/10/20 19:29:37-[ DEBUG ] ==> Parameters: 13(Integer), 3(Integer), 1(Integer)
+ 2019/10/20 19:31:53-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 19:31:53-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 19:31:53-[ DEBUG ] <==      Total: 19
+ 2019/10/20 19:31:53-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 19:31:53-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 19:31:53-[ DEBUG ] <==      Total: 10
+ 2019/10/20 19:32:04-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 19:32:04-[ DEBUG ] ==> Parameters: 3(Integer)
+ 2019/10/20 19:32:04-[ DEBUG ] <==      Total: 1
+ 2019/10/20 19:32:04-[ DEBUG ] ==>  Preparing: insert into shopcar(customer_id,book_id,num) value(?,?,?) 
+ 2019/10/20 19:32:04-[ DEBUG ] ==> Parameters: null, 3(Integer), 1(Integer)
+ 2019/10/20 19:32:21-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/20 19:32:21-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/20 19:32:21-[ DEBUG ] <==      Total: 1
+ 2019/10/20 19:32:21-[ DEBUG ] ==>  Preparing: select customer_id, c.username username, c.password password, zip, address, phone, email, book_id,name,price,image,num from shopcar s,customer c,book b where s.customer_id = c.id and s.book_id = b.id and customer_id=? 
+ 2019/10/20 19:32:21-[ DEBUG ] ==> Parameters: 13(Integer)
+ 2019/10/20 19:32:21-[ DEBUG ] <==      Total: 0
+ 2019/10/20 19:32:24-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 19:32:24-[ DEBUG ] ==> Parameters: 3(Integer)
+ 2019/10/20 19:32:24-[ DEBUG ] <==      Total: 1
+ 2019/10/20 19:32:27-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 19:32:27-[ DEBUG ] ==> Parameters: 3(Integer)
+ 2019/10/20 19:32:27-[ DEBUG ] <==      Total: 1
+ 2019/10/20 19:32:27-[ DEBUG ] ==>  Preparing: insert into shopcar(customer_id,book_id,num) value(?,?,?) 
+ 2019/10/20 19:32:27-[ DEBUG ] ==> Parameters: 13(Integer), 3(Integer), 1(Integer)
+ 2019/10/20 19:32:27-[ DEBUG ] <==    Updates: 1
+ 2019/10/20 19:35:24-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/20 19:35:24-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 19:35:24-[ DEBUG ] <==      Total: 19
+ 2019/10/20 19:35:24-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/20 19:35:24-[ DEBUG ] ==> Parameters: 
+ 2019/10/20 19:35:24-[ DEBUG ] <==      Total: 10
+ 2019/10/20 19:36:18-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/20 19:36:18-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/20 19:36:18-[ DEBUG ] <==      Total: 1
+ 2019/10/20 19:36:18-[ DEBUG ] ==>  Preparing: select customer_id, c.username username, c.password password, zip, address, phone, email, book_id,name,price,image,num from shopcar s,customer c,book b where s.customer_id = c.id and s.book_id = b.id and customer_id=? 
+ 2019/10/20 19:36:18-[ DEBUG ] ==> Parameters: 13(Integer)
+ 2019/10/20 19:36:18-[ DEBUG ] <==      Total: 1
+ 2019/10/20 19:36:22-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 19:36:22-[ DEBUG ] ==> Parameters: 3(Integer)
+ 2019/10/20 19:36:22-[ DEBUG ] <==      Total: 1
+ 2019/10/20 19:36:24-[ DEBUG ] ==>  Preparing: update shopcar set num=? where customer_id=? and book_id=? 
+ 2019/10/20 19:36:24-[ DEBUG ] ==> Parameters: 2(Integer), 13(Integer), 3(Integer)
+ 2019/10/20 19:36:24-[ DEBUG ] <==    Updates: 1
+ 2019/10/20 19:36:35-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 19:36:35-[ DEBUG ] ==> Parameters: 4(Integer)
+ 2019/10/20 19:36:35-[ DEBUG ] <==      Total: 1
+ 2019/10/20 19:36:37-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, price, image, c.id cid, c. NAME cname FROM book b, category c WHERE category_id = c.id AND b.id =? 
+ 2019/10/20 19:36:37-[ DEBUG ] ==> Parameters: 4(Integer)
+ 2019/10/20 19:36:37-[ DEBUG ] <==      Total: 1
+ 2019/10/20 19:36:37-[ DEBUG ] ==>  Preparing: insert into shopcar(customer_id,book_id,num) value(?,?,?) 
+ 2019/10/20 19:36:37-[ DEBUG ] ==> Parameters: 13(Integer), 4(Integer), 1(Integer)
+ 2019/10/20 19:36:37-[ DEBUG ] <==    Updates: 1
+ 

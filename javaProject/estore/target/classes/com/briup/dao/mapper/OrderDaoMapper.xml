@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.briup.dao.OrderDao">
+
+	<!-- List<Order> findByCustomer(Customer customer);  -->
+	<select id="findByCustomer" resultMap="AllOrders" parameterType="com.briup.bean.Customer">
+		SELECT
+			o.id oid,
+			total,
+			orderDate,
+			
+			ol.id olid,
+			num,
+			b.id bid,
+			name,
+			price,
+			image
+		FROM
+			`order` o,orderline ol,book b
+		where 
+			book_id = b.id
+			and order_id = o.id
+			and customer_id = #{id}
+	</select>
+	<resultMap type="com.briup.bean.Order" id="AllOrders">
+		<id column="oid" property="id"/>
+		<result column="total" property="total"/>
+		<result column="orderdate" property="orderDate"/>
+		<collection property="lines" javaType="com.briup.bean.OrderLine" autoMapping="true">
+			<result column="olid" property="id"/>
+			<result column="num" property="num"/>
+			<result column="bid" property="book.id"/>
+			<result column="name" property="book.name"/>
+			<result column="price" property="book.price"/>
+			<result column="image" property="book.image"/>
+		</collection>	
+	</resultMap>
+	
+	
+</mapper>

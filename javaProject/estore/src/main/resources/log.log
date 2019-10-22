@@ -1,0 +1,13 @@
+2019/10/21 09:12:14-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/21 09:12:14-[ DEBUG ] ==> Parameters: 
+ 2019/10/21 09:12:14-[ DEBUG ] <==      Total: 19
+ 2019/10/21 09:12:14-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/21 09:12:14-[ DEBUG ] ==> Parameters: 
+ 2019/10/21 09:12:14-[ DEBUG ] <==      Total: 10
+ 2019/10/21 09:15:34-[ DEBUG ] ==>  Preparing: SELECT b1.id cid, b1.NAME cname, b2.id bid, b2.NAME ccates FROM category b1, category b2 WHERE b1.id = b2.father_id 
+ 2019/10/21 09:15:34-[ DEBUG ] ==> Parameters: 
+ 2019/10/21 09:15:34-[ DEBUG ] <==      Total: 19
+ 2019/10/21 09:15:34-[ DEBUG ] ==>  Preparing: SELECT b.id bid, b. NAME bname, b.price bprice, image, c.id cid, c.NAME cname FROM book b, category c WHERE b.category_id = c.id 
+ 2019/10/21 09:15:34-[ DEBUG ] ==> Parameters: 
+ 2019/10/21 09:15:34-[ DEBUG ] <==      Total: 10
+ 

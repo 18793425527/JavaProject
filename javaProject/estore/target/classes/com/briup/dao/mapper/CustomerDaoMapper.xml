@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.briup.dao.CustomerDao">
+
+	<!-- Customer findByUsername(String username); -->
+	<select id="findByUsername" resultType="com.briup.bean.Customer"
+		parameterType="java.lang.String">
+		select id,username,password,zip,address,phone,email
+		from customer
+		where username=#{username}
+	</select>
+
+	<!-- Customer findByUserPhone(String UserPhone); -->
+	<select id="findByUserPhone"
+		resultType="com.briup.bean.Customer" parameterType="java.lang.String">
+		select id,username,password,zip,address,phone,email
+		from
+		customer
+		where phone=#{phone}
+	</select>
+	
+	<!-- Customer findByUserEmail(String UserEmail); -->
+	<select id="findByUserEmail"
+		resultType="com.briup.bean.Customer" parameterType="java.lang.String">
+		select id,username,password,zip,address,phone,email
+		from
+		customer
+		where email=#{email}
+	</select>
+
+	<!-- void saveCustomer(Customer customer); -->
+	<insert id="saveCustomer"
+		parameterType="com.briup.bean.Customer">
+		insert into
+		customer(id,username,password,zip,address,phone,email)
+		values(#{id},#{username},#{password},#{zip},#{address},#{phone},#{email})
+	</insert>
+	
+	<!-- void updateCustomer(Customer customer); -->
+	<update id="updateCustomer" parameterType="com.briup.bean.Customer">
+		update customer set 
+		username=#{username},
+		password=#{password},
+		zip=#{zip},
+		address=#{address},
+		phone=#{phone},
+		email=#{email}
+		where id=#{id}		
+	</update>
+	
+
+
+</mapper>

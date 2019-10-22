@@ -1,0 +1,157 @@
+2019/10/18 00:00:06-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/18 00:00:06-[ DEBUG ] ==> Parameters: dsa@c(String)
+ 2019/10/18 00:00:06-[ DEBUG ] <==      Total: 0
+ 2019/10/18 00:00:21-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/18 00:00:21-[ DEBUG ] ==> Parameters: sdaf@c.cc(String)
+ 2019/10/18 00:00:21-[ DEBUG ] <==      Total: 0
+ 2019/10/18 00:00:31-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/18 00:00:31-[ DEBUG ] ==> Parameters: dsa@.cc(String)
+ 2019/10/18 00:00:31-[ DEBUG ] <==      Total: 0
+ 2019/10/18 00:00:38-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/18 00:00:38-[ DEBUG ] ==> Parameters: 1651818188(String)
+ 2019/10/18 00:00:38-[ DEBUG ] <==      Total: 0
+ 2019/10/18 00:07:57-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/18 00:07:57-[ DEBUG ] ==> Parameters: 13215(String)
+ 2019/10/18 00:07:57-[ DEBUG ] <==      Total: 0
+ 2019/10/18 00:08:05-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/18 00:08:05-[ DEBUG ] ==> Parameters: 115(String)
+ 2019/10/18 00:08:05-[ DEBUG ] <==      Total: 0
+ 2019/10/18 00:10:01-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/18 00:10:01-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/18 00:10:01-[ DEBUG ] <==      Total: 0
+ 2019/10/18 00:10:01-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/18 00:10:01-[ DEBUG ] ==> Parameters: 151222(String)
+ 2019/10/18 00:10:01-[ DEBUG ] <==      Total: 0
+ 2019/10/18 00:10:01-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/18 00:10:01-[ DEBUG ] ==> Parameters: ddd@qq.com(String)
+ 2019/10/18 00:10:01-[ DEBUG ] <==      Total: 0
+ 2019/10/18 00:10:01-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/18 00:10:01-[ DEBUG ] ==> Parameters: null, ddd(String), ddd(String), ddd(String), ddd(String), 151222(String), ddd@qq.com(String)
+ 2019/10/18 00:10:01-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 00:10:08-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/18 00:10:08-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/18 00:10:08-[ DEBUG ] <==      Total: 1
+ 2019/10/18 08:45:36-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/18 08:45:36-[ DEBUG ] ==> Parameters: cxt(String)
+ 2019/10/18 08:45:36-[ DEBUG ] <==      Total: 1
+ 2019/10/18 08:52:42-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/18 08:52:42-[ DEBUG ] ==> Parameters: vvv(String)
+ 2019/10/18 08:52:42-[ DEBUG ] <==      Total: 0
+ 2019/10/18 08:52:42-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/18 08:52:42-[ DEBUG ] ==> Parameters: 125623(String)
+ 2019/10/18 08:52:42-[ DEBUG ] <==      Total: 0
+ 2019/10/18 08:52:42-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/18 08:52:42-[ DEBUG ] ==> Parameters: 45615@qq.com(String)
+ 2019/10/18 08:52:42-[ DEBUG ] <==      Total: 0
+ 2019/10/18 08:52:42-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/18 08:52:42-[ DEBUG ] ==> Parameters: null, vvv(String), vvv(String), vvv(String), vvv(String), 125623(String), 45615@qq.com(String)
+ 2019/10/18 08:52:42-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 08:53:23-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/18 08:53:23-[ DEBUG ] ==> Parameters: bbbb(String)
+ 2019/10/18 08:53:23-[ DEBUG ] <==      Total: 0
+ 2019/10/18 08:53:23-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/18 08:53:23-[ DEBUG ] ==> Parameters: 562623(String)
+ 2019/10/18 08:53:23-[ DEBUG ] <==      Total: 0
+ 2019/10/18 08:53:23-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/18 08:53:23-[ DEBUG ] ==> Parameters: bbbb@qq.com(String)
+ 2019/10/18 08:53:23-[ DEBUG ] <==      Total: 0
+ 2019/10/18 08:53:23-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/18 08:53:23-[ DEBUG ] ==> Parameters: null, bbbb(String), bbbb(String), vvv(String), vvv(String), 562623(String), bbbb@qq.com(String)
+ 2019/10/18 08:53:23-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 08:53:47-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/18 08:53:47-[ DEBUG ] ==> Parameters: nnn(String)
+ 2019/10/18 08:53:47-[ DEBUG ] <==      Total: 0
+ 2019/10/18 08:53:47-[ DEBUG ] ==>  Preparing: select * from customer where phone=? 
+ 2019/10/18 08:53:47-[ DEBUG ] ==> Parameters: 8963432(String)
+ 2019/10/18 08:53:47-[ DEBUG ] <==      Total: 0
+ 2019/10/18 08:53:47-[ DEBUG ] ==>  Preparing: select * from customer where email=? 
+ 2019/10/18 08:53:47-[ DEBUG ] ==> Parameters: 266@ee.com(String)
+ 2019/10/18 08:53:47-[ DEBUG ] <==      Total: 0
+ 2019/10/18 08:53:47-[ DEBUG ] ==>  Preparing: insert into customer(id,username,password,zip,address,phone,email) values(?,?,?,?,?,?,?) 
+ 2019/10/18 08:53:47-[ DEBUG ] ==> Parameters: null, nnn(String), nnn(String), nnn(String), nnn(String), 8963432(String), 266@ee.com(String)
+ 2019/10/18 08:53:47-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 08:53:57-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/18 08:53:57-[ DEBUG ] ==> Parameters: adsc(String)
+ 2019/10/18 08:53:57-[ DEBUG ] <==      Total: 0
+ 2019/10/18 08:54:02-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/18 08:54:02-[ DEBUG ] ==> Parameters: bbb(String)
+ 2019/10/18 08:54:02-[ DEBUG ] <==      Total: 0
+ 2019/10/18 08:54:35-[ DEBUG ] ==>  Preparing: select * from customer where username=? 
+ 2019/10/18 08:54:35-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/18 08:54:35-[ DEBUG ] <==      Total: 1
+ 2019/10/18 10:56:45-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/18 10:56:45-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/18 10:56:45-[ DEBUG ] <==      Total: 1
+ 2019/10/18 11:00:45-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/18 11:00:45-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/18 11:00:45-[ DEBUG ] <==      Total: 1
+ 2019/10/18 11:01:22-[ DEBUG ] ==>  Preparing: update customer set id=?, username=?, password=?, zip=?, address=?, phone=?, email=? where username=? 
+ 2019/10/18 11:01:22-[ DEBUG ] ==> Parameters: null, ddd(String), ddd(String), ddd(String), dadas(String), 8888888(String), ddd@qq.com(String), ddd(String)
+ 2019/10/18 11:05:41-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/18 11:05:41-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/18 11:05:41-[ DEBUG ] <==      Total: 1
+ 2019/10/18 11:14:27-[ DEBUG ] ==>  Preparing: update customer set id=?, username=?, password=?, zip=?, address=?, phone=?, email=? where username=? 
+ 2019/10/18 11:14:27-[ DEBUG ] ==> Parameters: null, ddd(String), ddd(String), ddd(String), ddd(String), 88888888(String), ddd@qq.com(String), ddd(String)
+ 2019/10/18 11:21:13-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/18 11:21:13-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/18 11:21:13-[ DEBUG ] <==      Total: 1
+ 2019/10/18 11:21:21-[ DEBUG ] ==>  Preparing: update customer set id=?, username=?, password=?, zip=?, address=?, phone=?, email=? where username=? 
+ 2019/10/18 11:21:21-[ DEBUG ] ==> Parameters: null, ddd(String), ddd(String), ddd(String), ddd(String), 88888888(String), ddd@qq.com(String), ddd(String)
+ 2019/10/18 11:22:13-[ DEBUG ] ==>  Preparing: update customer set username=?, password=?, zip=?, address=?, phone=?, email=? where username=? 
+ 2019/10/18 11:22:13-[ DEBUG ] ==> Parameters: ddd(String), ddd(String), ddd(String), ddd(String), 88888888(String), ddd@qq.com(String), ddd(String)
+ 2019/10/18 11:22:13-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 11:22:50-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/18 11:22:50-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/18 11:22:50-[ DEBUG ] <==      Total: 1
+ 2019/10/18 11:22:59-[ DEBUG ] ==>  Preparing: update customer set username=?, password=?, zip=?, address=?, phone=?, email=? where username=? 
+ 2019/10/18 11:22:59-[ DEBUG ] ==> Parameters: ddd(String), ddd(String), ddd(String), ddd(String), 666666(String), ddd@qq.com(String), ddd(String)
+ 2019/10/18 11:22:59-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 11:23:13-[ DEBUG ] ==>  Preparing: update customer set username=?, password=?, zip=?, address=?, phone=?, email=? where username=? 
+ 2019/10/18 11:23:13-[ DEBUG ] ==> Parameters: ddd(String), ddd(String), ddd(String), ddd(String), 22222(String), ddd@qq.com(String), ddd(String)
+ 2019/10/18 11:23:13-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 11:27:16-[ DEBUG ] ==>  Preparing: update customer set username=?, password=?, zip=?, address=?, phone=?, email=? where username=? 
+ 2019/10/18 11:27:16-[ DEBUG ] ==> Parameters: ddd(String), ddd(String), ddd(String), ddd(String), 88888888(String), ddd@qq.com(String), ddd(String)
+ 2019/10/18 11:27:16-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 11:29:48-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/18 11:29:48-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/18 11:29:48-[ DEBUG ] <==      Total: 1
+ 2019/10/18 11:29:55-[ DEBUG ] ==>  Preparing: update customer set username=?, password=?, zip=?, address=?, phone=?, email=? where username=? 
+ 2019/10/18 11:29:55-[ DEBUG ] ==> Parameters: ddd(String), ddd(String), ddd(String), ddd(String), 1111111(String), ddd@qq.com(String), ddd(String)
+ 2019/10/18 11:29:56-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 11:30:17-[ DEBUG ] ==>  Preparing: update customer set username=?, password=?, zip=?, address=?, phone=?, email=? where username=? 
+ 2019/10/18 11:30:17-[ DEBUG ] ==> Parameters: ddd(String), ddd(String), ddd(String), ddd(String), 1111111(String), ddd@qq.com(String), ddd(String)
+ 2019/10/18 11:30:17-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 11:30:35-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/18 11:30:35-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/18 11:30:35-[ DEBUG ] <==      Total: 1
+ 2019/10/18 11:30:50-[ DEBUG ] ==>  Preparing: update customer set username=?, password=?, zip=?, address=?, phone=?, email=? where username=? 
+ 2019/10/18 11:30:50-[ DEBUG ] ==> Parameters: ddd(String), ddd(String), ddd(String), ddd(String), 22222(String), ddd@qq.com(String), ddd(String)
+ 2019/10/18 11:30:50-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 11:33:02-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/18 11:33:02-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/18 11:33:02-[ DEBUG ] <==      Total: 1
+ 2019/10/18 11:33:10-[ DEBUG ] ==>  Preparing: update customer set username=?, password=?, zip=?, address=?, phone=?, email=? where username=? 
+ 2019/10/18 11:33:10-[ DEBUG ] ==> Parameters: ddd(String), ddd(String), ddd(String), ddd(String), 3333(String), ddd@qq.com(String), ddd(String)
+ 2019/10/18 11:33:10-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 11:33:15-[ DEBUG ] ==>  Preparing: update customer set username=?, password=?, zip=?, address=?, phone=?, email=? where username=? 
+ 2019/10/18 11:33:15-[ DEBUG ] ==> Parameters: ddd(String), ddd(String), ddd(String), ddd(String), 3333(String), ddd@qq.com(String), ddd(String)
+ 2019/10/18 11:33:15-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 11:33:26-[ DEBUG ] ==>  Preparing: update customer set username=?, password=?, zip=?, address=?, phone=?, email=? where username=? 
+ 2019/10/18 11:33:26-[ DEBUG ] ==> Parameters: ddd(String), ddd(String), ddd(String), ddd(String), 44444(String), ddd@qq.com(String), ddd(String)
+ 2019/10/18 11:33:27-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 11:43:58-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/18 11:43:58-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/18 11:43:58-[ DEBUG ] <==      Total: 1
+ 2019/10/18 11:44:05-[ DEBUG ] ==>  Preparing: update customer set username=?, password=?, zip=?, address=?, phone=?, email=? where username=? 
+ 2019/10/18 11:44:05-[ DEBUG ] ==> Parameters: ddd(String), ddd(String), ddd(String), ddd(String), 1111111(String), ddd@qq.com(String), ddd(String)
+ 2019/10/18 11:44:05-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 11:52:04-[ DEBUG ] ==>  Preparing: update customer set username=?, password=?, zip=?, address=?, phone=?, email=? where username=? 
+ 2019/10/18 11:52:04-[ DEBUG ] ==> Parameters: ddd(String), ddd(String), ddd(String), ddd(String), 22222(String), ddd@qq.com(String), ddd(String)
+ 2019/10/18 11:52:05-[ DEBUG ] <==    Updates: 1
+ 2019/10/18 13:57:32-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/18 13:57:32-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/18 13:57:32-[ DEBUG ] <==      Total: 1
+ 2019/10/18 14:48:46-[ DEBUG ] ==>  Preparing: select id,username,password,zip,address,phone,email from customer where username=? 
+ 2019/10/18 14:48:46-[ DEBUG ] ==> Parameters: ddd(String)
+ 2019/10/18 14:48:46-[ DEBUG ] <==      Total: 1
+ 
